@@ -1,0 +1,20 @@
+.container {
+  height: 400px;
+}
+@media (max-width: 768px) {
+  .container {
+    height: 600px;
+  }
+}
+@media (max-width: 639px) {
+  .container {
+    height: 600px;
+  }
+}
+.offer_1 {
+  transform: translateX(-50%);
+  left: 50%;
+}
+.offer_2 {
+  transform: translateX(300%);
+}
